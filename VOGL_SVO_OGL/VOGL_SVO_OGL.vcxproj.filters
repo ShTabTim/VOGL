@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Simplex.cpp" />
+    <ClCompile Include="FundLibs\BarakWinHelper\Win\Keys.cpp">
+      <Filter>floor</Filter>
+    </ClCompile>
+    <ClCompile Include="FundLibs\BarakWinHelper\Win\win.cpp">
+      <Filter>floor</Filter>
+    </ClCompile>
+    <ClCompile Include="vogl\ogl_var.cpp">
+      <Filter>vogl</Filter>
+    </ClCompile>
+    <ClCompile Include="vogl\vogl.cpp">
+      <Filter>vogl</Filter>
+    </ClCompile>
+    <ClCompile Include="vogl\ogl_svo.cpp">
+      <Filter>vogl</Filter>
+    </ClCompile>
+    <ClCompile Include="vogl\Shader.cpp">
+      <Filter>vogl</Filter>
+    </ClCompile>
+    <ClCompile Include="vogl\glad 46\src\glad.c">
+      <Filter>vogl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Simplex.h" />
+    <ClInclude Include="FundLibs\BarakWinHelper\Win\Keys.h">
+      <Filter>floor</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\BarakWinHelper\Win\win.h">
+      <Filter>floor</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\ogl_svo.h">
+      <Filter>vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\ogl_var.h">
+      <Filter>vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\vogl.h">
+      <Filter>vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\vox_rend.h">
+      <Filter>vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\Shader.h">
+      <Filter>vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\glad 46\include\glad\glad.h">
+      <Filter>vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\glad 46\include\KHR\khrplatform.h">
+      <Filter>vogl</Filter>
+    </ClInclude>
+    <ClInclude Include="vogl\shaders.hpp">
+      <Filter>vogl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vogl\shaders.inl">
+      <Filter>vogl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="floor">
+      <UniqueIdentifier>{db91b8ed-09bb-4804-aea5-ec9e4a441681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vogl">
+      <UniqueIdentifier>{7717d868-51ea-44ce-93a3-6886329f9c7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
